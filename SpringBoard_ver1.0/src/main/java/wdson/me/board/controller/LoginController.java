@@ -73,4 +73,12 @@ public class LoginController {
 
 		return "loginSuccess";
 	}
+	
+	@RequestMapping(value = "/doLogout", method = RequestMethod.GET)
+	public String doLogout(Model model) {
+		model.addAttribute("loginStatus", false);
+		model.addAttribute("loginId", null);
+		
+		return "home";
+	}
 }

@@ -77,7 +77,7 @@ desired effect
 		 		
 		 		<div class="form-group">
 		 			<label for="writer"> 작성자 </label>
-		 			<input class="form-control" id="b_writer" name="b_writer">
+		 			<input class="form-control" id="b_writer" name="b_writer" value="${loginId}">
 		 		</div>
 		 		
 		 		<div class="box-footer">

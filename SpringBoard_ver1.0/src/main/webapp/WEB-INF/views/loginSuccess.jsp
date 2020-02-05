@@ -52,8 +52,9 @@ desired effect
 
     <!-- Main content -->
     <section class="content container-fluid">
-
-      
+	<script>
+	location.href = "${path}/list";
+	</script>  
 
     </section>
     <!-- /.content -->
